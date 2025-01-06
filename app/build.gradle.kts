@@ -71,17 +71,17 @@ android {
             }
         } else {
             create("release") {
-                keyAlias = "yourspace"
-                keyPassword = "yourspace"
-                storeFile = file("debug.keystore")
-                storePassword = "yourspace"
+                keyAlias = "key0"
+                keyPassword = "droidOs"
+                storeFile = file("debugKeystore.jks")
+                storePassword = "droidOs"
             }
         }
         getByName("debug") {
-            keyAlias = "yourspace"
-            keyPassword = "yourspace"
-            storeFile = file("debug.keystore")
-            storePassword = "yourspace"
+            keyAlias = "key0"
+            keyPassword = "droidOs"
+            storeFile = file("debugKeystore.jks")
+            storePassword = "droidOs"
         }
     }
 
